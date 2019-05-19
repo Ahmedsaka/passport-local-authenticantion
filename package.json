@@ -1,0 +1,39 @@
+{
+  "name": "authtut",
+  "version": "1.0.0",
+  "description": "user authentication code",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmedsaka/passport-local-authenticantion.git"
+  },
+  "keywords": [
+    "passport",
+    "local",
+    "authentication"
+  ],
+  "author": "Ahmed Saka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmedsaka/passport-local-authenticantion/issues"
+  },
+  "homepage": "https://github.com/Ahmedsaka/passport-local-authenticantion#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.0",
+    "express-sessions": "^1.0.6",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.5.9",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "session-file-store": "^1.2.0",
+    "uuid": "^3.3.2"
+  }
+}
